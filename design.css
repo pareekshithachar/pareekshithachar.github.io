@@ -37,7 +37,7 @@ nav li{
     margin-left: 90px;
     padding-top:26px;
 }
-nav > ul > li> a{
+nav  ul  li a{
 color: #444;
 text-decoration: none;
 text-transform: uppercase;
@@ -53,14 +53,16 @@ nav a:hover{
 }
 .centered {
     position: absolute;
-    top: 26%;
-    left: 56%;
+    top: 50%;
+    left: 60%;
     transform: translate(-80%, -50%);
     color:white;
     font-family: 'Montserrat', sans-serif;
   }
 
-
+.centered h1{
+    font-size: 50px;
+}
 
 
 
@@ -108,3 +110,33 @@ nav a:hover{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #55c3d6;}
+  .text{
+      font-size: 18pt;
+  }
+  .div2{
+      background-image: url("mainbg2.jpg");
+      height: 500px;
+      width: 100%;
+     
+  }
+  .div3{
+      color: white;
+      margin-left: 27%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+  }
+  .div3 p{
+      font-size: 30px;
+  }
+  .div3 h2{
+      font-size: 20px;
+  }
+  #ass{
+    text-decoration: none;
+    
+    color: rgb(253, 196, 196);
+    
+  }
+  #ass:hover{
+      color:red;
+  }
