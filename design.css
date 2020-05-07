@@ -1,0 +1,54 @@
+.container{
+    width: 80%;
+    margin:0  auto;
+}
+#body{
+    margin: 0;
+    background:#222;
+    font family:"Work Sans", sans-serif;
+    font_weight:300;
+}
+header{
+    background: #55d2d6
+}
+
+header::after{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+.logo{
+    height: 70px;
+    width: auto;
+    float:left;
+    padding-bottom: 10px;
+}
+nav{
+    float:right;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+nav li{
+    display: inline-block; 
+    margin-left: 90px;
+    padding-top:26px;
+}
+nav > ul > li> a{
+color: #444;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav a:hover{
+    color: red;
+    
+}
+.mainbg{
+    height: 500px;
+    max-width: 200%;
+    padding: 0;
+    margin: 0;
+}
