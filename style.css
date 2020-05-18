@@ -29,3 +29,32 @@ nav div ul {
 [class*="col-"] {
   padding: 1rem;
 }
+.fa-code {
+  color: #e54d26;
+}
+.fa-bold {
+  color: #563d7c;
+}
+.fa-css3 {
+  color: #2163af;
+}
+.fa-code,
+.fa-bold,
+.fa-css3,
+.fa-cuttlefish {
+  margin: 1rem;
+  font-size: 4em;
+}
+.fa-cuttlefish {
+  color: gray;
+}
+.fa-python {
+  margin: 1rem;
+  font-size: 4em;
+  color: Blue;
+}
+.fa-js {
+  margin: 1rem;
+  font-size: 4em;
+  color: rgb(228, 228, 27);
+}
