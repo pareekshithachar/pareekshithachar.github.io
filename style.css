@@ -58,3 +58,39 @@ nav div ul {
   font-size: 4em;
   color: rgb(228, 228, 27);
 }
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+fa-google:hover {
+  color: Firebrick;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+  color: black;
+}
+.fa-github {
+  color: #000010;
+  color: black;
+}
+.fa-twitter {
+  color: #00aced;
+  color: black;
+}
+.fa-instagram {
+  color: #517fa4;
+  color: black;
+}
+.fa-linkedin {
+  color: #517fa4;
+  color: black;
+}
+.fa-google {
+  color: gray;
+  color: black;
+}
