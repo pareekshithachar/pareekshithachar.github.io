@@ -1,63 +1,206 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="design.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-      
-        <script src="code.js"></script>
-        <script src="SimpleImage.js"></script>
-      <title>Pareekshith Achar</title>
-      <meta charset="UTF-8">
-      </head>
-<body id="body">
-
-<header>
-  <div class="container">
-    
-    <a href="index.html"><img src="logo_transparent.png" alt="logo" class="logo"></a>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="a">About</a></li>
-        <li><a href="https://github.com/pareekshithachar">Github</a></li>
-        <li>
-          <div class="dropdown">
-            <button class="dropbtn">Contact</button>
-            <div class="dropdown-content">
-              <a href="https://twitter.com/Pareekshithach1">Twitter</a>
-              <a href="https://www.instagram.com/pareekshithachar/">Instagram</a>
-              <a href="https://www.youtube.com/channel/UCoT5Oymyn_yQrmfXgvSmi4g?view_as=subscriber">Youtube</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Complete Bootstrap 4 Website Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="#">._.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#myproject">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--- Image Slider -->
+    <div id="home">
+      <a href="#home"></a>
+      <div class="container-fluid" id="homebg">
+        <h1 class="display-2">Hello there!</h1>
+        <h2 class="display-4">Welcome to my Website!</h2>
+        <h3 class="home-content">Iam <b>Pareekshith.</b></h3>
+        <p class="home-content">
+          Iam An 18 year old student pursuing my Undergraduate degree in
+          Electronics and Instrumentation at BITS Pilani, Goa
+        </p>
+        <p class="home-content1">
+          Iam currently a first year student exploring web development.
+        </p>
+        <a href="https://www.bits-pilani.ac.in/goa/" class="btn btn-dark"
+          >Learn more about BITS</a
+        >
+        <p><img src="profilepic.png" class="img-fluid" id="ppimage" /></p>
+        <p>(this me lol)</p>
+      </div>
+    </div>
+    <div class="jumbotron hom1" id="aboutme">
+      <div class="row">
+        <h1 class="display-4">About Me</h1>
+      </div>
+      <div class="row">
+        <div class="jumbotron">
+          <h2>
+            <b
+              >Iam An 18 year old student pursuing my Undergraduate degree in
+              Electronics and Instrumentation at BITS Pilani, Goa</b
+            >
+          </h2>
+          <p class="home-content">
+            Iam currently a first year student exploring web development.
+          </p>
+          <div class="jumbotron" id="jumbo1">
+            <div class="jumbotron">
+              <h3>My interests include:</h3>
+              <ul class="list-group">
+                <li class="list-group-item active">Web Development</li>
+                <li class="list-group-item">App development</li>
+                <li class="list-group-item">Computer Security</li>
+                <li class="list-group-item">Electrical Circuit Analysis</li>
+              </ul>
+            </div>
+            <a href="#home" class="btn btn-light">Back to Home page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div>
+      <h1 class="display-4" id="myproject" style="padding-left: 20px;">
+        My Projects
+      </h1>
+      <p class="home-content" style="padding-left: 20px;">
+        Here are some of my projects that i have come up with in the past few
+        weeks.
+      </p>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-sm-1 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="gs.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Green Screen</h5>
+                <p class="card-text">
+                  A small javascript program that takes in two images as
+                  foreground and background and merges them on the green screen
+                  technique .
+                </p>
+                <a href="#" class="btn btn-primary">Check it out!</a>
+              </div>
             </div>
           </div>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Source</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div class="div1">
-  <img src="82239.jpg" class="mainbg">
-  <div class="centered">
+          <div class="col-sm-1 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="grayscale1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Gray Scale</h5>
+                <p class="card-text">
+                  A small javascript program that takes in an image and produces
+                  the grayscale version of it .
+                </p>
+                <a href="#" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="redhue.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Red Hue</h5>
+                <p class="card-text">
+                  A small javascript program that takes in an image and
+                  generates a red hue version of it.
+                </p>
+                <a href="#" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="Question-Mark-Picture.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">More Projects</h5>
+                <p class="card-text">
+                  More projects to come, stay tuned. Meanwhile you can suggest
+                  some projects down below
+                </p>
+                <a href="#" class="btn btn-primary">suggest!</a>
+              </div>
+            </div>
+          </div>
+          <a href="#home" class="btn btn-dark">Back to Home page</a>
+        </div>
+      </div>
+    </div>
+    <hr />
 
-    <h1> Welcome to my website</h1>
-    <ul>
-    <li class= "text"> Im Pareekshith, An 18 year old student pursuing my Undergraduate degree in Electronics and Instruentation at BITS Pilani, Goa</li>
-    <li class="text">This is a beta Version of this website.</li>
-    <li class ="text">Use a pc to view this website, mobile version coming soon? :)</li>
-    </ul>
-  </div>
-</div>
-<div class="div2">
-  
-  <div class="div3">
-    <h1>About my Project</h1>
-    <p> This project that I worked on is a Green Screen and Grey scale generator. </p>
-    <h2> <a id="ass" href="/Mini project/miniproject.html">Here</a> is where you can find a link to my Project</h2>
+    <!--- Jumbotron -->
 
-  </div>
-</div>
+    <!--- Welcome Section -->
 
+    <!--- Three Column Section -->
 
+    <!--- Two Column Section -->
 
-</body>
-  
+    <!--- Fixed background -->
+
+    <!--- Emoji Section -->
+
+    <!--- Meet the team -->
+
+    <!--- Cards -->
+
+    <!--- Two Column Section -->
+
+    <!--- Connect -->
+
+    <!--- Footer -->
+  </body>
+</html>

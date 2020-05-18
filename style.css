@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  /* font-family: Montserrat; */
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important; */
+  font-family: "Roboto Slab", serif;
+}
+
+#home {
+  background-image: url("background1.jpg") !important;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav div ul {
+  float: right !important;
+}
+.home-content {
+  font-size: 35px !important;
+}
+.home-content1 {
+  font-size: 30px !important;
+}
+#ppimage {
+  padding-top: 20px !important;
+}
+#jumbo1 {
+  background-image: url(jumboback.jpg);
+}
+[class*="col-"] {
+  padding: 1rem;
+}
